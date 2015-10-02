@@ -1,0 +1,104 @@
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .htaccess
+	new file:   autoload.php
+	new file:   cfg.php
+	new file:   class/db_connect.php
+	new file:   class/faculty.php
+	new file:   class/group.php
+	new file:   class/ssp.ado.class.php
+	new file:   class/student.php
+	new file:   home.php
+	new file:   index.php
+	new file:   js/init.js
+	new file:   js/jquery-1.11.3.min.js
+	new file:   js/jquery.dataTables.min.js
+	new file:   js/russian.js
+	new file:   js/table_faculty.js
+	new file:   js/table_group.js
+	new file:   js/table_student.js
+	new file:   png/Error.png
+	new file:   process_ajax.php
+	new file:   report1.php
+	new file:   report2.php
+	new file:   report3.php
+	new file:   report4.php
+	new file:   smarty/templates/datatable.css
+	new file:   smarty/templates/daterange.tpl
+	new file:   smarty/templates/error_form.tpl
+	new file:   smarty/templates/faculty_list.tpl
+	new file:   smarty/templates/faculty_record.tpl
+	new file:   smarty/templates/footer.tpl
+	new file:   smarty/templates/group_list.tpl
+	new file:   smarty/templates/group_record.tpl
+	new file:   smarty/templates/header.tpl
+	new file:   smarty/templates/home.tpl
+	new file:   smarty/templates/menu.css
+	new file:   smarty/templates/menu.tpl
+	new file:   smarty/templates/record_delete.tpl
+	new file:   smarty/templates/report1.tpl
+	new file:   smarty/templates/report3.tpl
+	new file:   smarty/templates/report4.tpl
+	new file:   smarty/templates/student_list.tpl
+	new file:   smarty/templates/student_record.tpl
+	new file:   smarty/templates/styles.css
+	new file:   smarty/templates_c/033d9bdd5f6efa7ff20cdd5153cecc07a34debf4.file.group_record.tpl.php
+	new file:   smarty/templates_c/03572405799a0e2f0600effb911b5d821652fe3b.file.styles.css.php
+	new file:   smarty/templates_c/05da67917beca34493448d4c58ca47c0ba087a6e.file.menu.tpl.php
+	new file:   smarty/templates_c/0fa8e10444ebf3b558b70d8967816f03bfef4513.file.group_list.tpl.php
+	new file:   smarty/templates_c/16d27ac235274055e7754ea80aa207416c308b14.file.report4.tpl.php
+	new file:   smarty/templates_c/1fae197138b64a46d41e049b1333b476812ee114.file.group_record.tpl.php
+	new file:   smarty/templates_c/22577b6e43d5e7310b5a305a119812f1abcb7c3e.file.home.tpl.php
+	new file:   smarty/templates_c/285aab88f7b7b784bed541e31c8becc1c358e38f.file.header.tpl.php
+	new file:   smarty/templates_c/2bd8602ae2bb81e1bb9d5a91b63cce3d5870a83e.file.daterange.tpl.php
+	new file:   smarty/templates_c/305954b1680e8c13c24b4305d3018dc2fab53dce.file.faculty_list.tpl.php
+	new file:   smarty/templates_c/37fa215ac81b7ade687ca1130105761996ccb323.file.datatable.css.php
+	new file:   smarty/templates_c/5064b2778ba3993f8afd72aec98a35ca0139ce25.file.footer.tpl.php
+	new file:   smarty/templates_c/56e721f44483b0116003b8f5bd770a12e5e7574e.file.report3.tpl.php
+	new file:   smarty/templates_c/5affe4dcbdf066096a769ffe2a07099d1d29ba58.file.menu.css.php
+	new file:   smarty/templates_c/5b323ff458f02e5809445a37850fa41d62189ea0.file.styles.css.php
+	new file:   smarty/templates_c/63a84ad3fa1defea3a82d3fd790cd1878ff489f7.file.student_record.tpl.php
+	new file:   smarty/templates_c/6e4fa1daa8e8b4cbc1ce0dacb9d0193a5c599c60.file.header.tpl.php
+	new file:   smarty/templates_c/708be79260839560ac5235f42e0e0586a1cd936f.file.group_list.tpl.php
+	new file:   smarty/templates_c/7467aee970ac3d83c6ec88796e51de7b3265cdfe.file.student_list.tpl.php
+	new file:   smarty/templates_c/74ecf4c0519a4b5eb986963f6ed00d31050085ac.file.student_list.tpl.php
+	new file:   smarty/templates_c/790c8e279a3389ba02e72ffe9d3cdf348c985a60.file.faculty_list.tpl.php
+	new file:   smarty/templates_c/79a8606d2b11d50a1754a0e0d5b06061b7053383.file.styles.css.php
+	new file:   smarty/templates_c/809d064ffcdedeefc3ea8ad165f59898281330da.file.datatable.css.php
+	new file:   smarty/templates_c/84f8f0808b08c522aa298c95a9e907654248db6b.file.footer.tpl.php
+	new file:   smarty/templates_c/8595287c22c584669225194753be5897883441ac.file.student_record.tpl.php
+	new file:   smarty/templates_c/866e95b38cbfe728ac5dd3bfea2221b5662e8ee1.file.faculty_list.tpl.php
+	new file:   smarty/templates_c/86793a47d0cb596770c61689b90cb55b3c4c7df3.file.menu.tpl.php
+	new file:   smarty/templates_c/867d0ae25af628c6936480b19b80f41057e5e680.file.record_delete.tpl.php
+	new file:   smarty/templates_c/98f429c804b78ebd61c9e5a576b127da0578c479.file.menu.tpl.php
+	new file:   smarty/templates_c/9b9248df92fa06bb364125d9c4dd02574db644b9.file.header.tpl.php
+	new file:   smarty/templates_c/a1da57d992e1c0e90a6fd525e7da77aa33142de8.file.faculty_record.tpl.php
+	new file:   smarty/templates_c/a43e7058bc2a2b45d723ff9f60361c89c828794f.file.record_delete.tpl.php
+	new file:   smarty/templates_c/a7af4d9ab9860f352679d14a6194905e731cb27e.file.menu.css.php
+	new file:   smarty/templates_c/ac1c77badd07470c6cd22bd9af4001aee577d0ab.file.student_list.tpl.php
+	new file:   smarty/templates_c/b173c227ddeddbc793a8de15874f7cfb2d6519e7.file.report1.tpl.php
+	new file:   smarty/templates_c/b18bc709f1566e98df5a1c19a7addf8740600b2a.file.record_delete.tpl.php
+	new file:   smarty/templates_c/bb82d105b9477df3b938f9db9c6ca8abe2bf1ac6.file.error_form.tpl.php
+	new file:   smarty/templates_c/be786779052c3d37d1a8d9a5ae5cedc719710751.file.error_form.tpl.php
+	new file:   smarty/templates_c/bface50881188977ce75a712eb391a1f38e3f915.file.group_list.tpl.php
+	new file:   smarty/templates_c/c29fe6f3975ea474cdaac5dda6b936b9334ad858.file.student_record.tpl.php
+	new file:   smarty/templates_c/cbe5bbd616ae9d3beffdfca746cf3010b26e4fb3.file.datatable.css.php
+	new file:   smarty/templates_c/cf275c837d0bd46d5b6330f142a028598847b94b.file.error_form.tpl.php
+	new file:   smarty/templates_c/d06d5b8961daaf492e0f7b3b5d596300c1c5b191.file.menu.css.php
+	new file:   smarty/templates_c/d2b2b7ea7c5a28e931508d0cf8d0488820915a1c.file.footer.tpl.php
+	new file:   smarty/templates_c/dcbf04fef451366a513c81eecf8af6d6ab666923.file.group_record.tpl.php
+	new file:   smarty/templates_c/df39dde8456f5aa0f97236f33fbc10b3866d1692.file.faculty_record.tpl.php
+	new file:   smarty/templates_c/fac45a9c10fc212df99eeaf9b92c89971f62c0a4.file.home.tpl.php
+	new file:   smarty/templates_c/fe291ae7b82b12786c976da5dd39f9f59ec5693e.file.faculty_record.tpl.php
+	new file:   utils.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	123
+

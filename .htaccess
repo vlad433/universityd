@@ -1,0 +1,5 @@
+php_value error_reporting 7
+#AddDefaultCharset1 utf8
+AddDefaultCharset WINDOWS-1251
+
+
